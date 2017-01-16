@@ -14,7 +14,7 @@ public class PermissionFragmentDemoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permission_fragment);
-
+        getSupportActionBar().setTitle("Fragment Demo");
     }
 
 }

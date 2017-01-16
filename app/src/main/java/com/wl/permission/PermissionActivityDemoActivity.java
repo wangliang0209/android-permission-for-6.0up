@@ -34,6 +34,7 @@ public class PermissionActivityDemoActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permission_activity);
+        getSupportActionBar().setTitle("Acticity Demo");
 
         permissionHelper = PermissionHelper.getInstance(this);
 
